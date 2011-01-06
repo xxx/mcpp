@@ -3,12 +3,12 @@ Mcpp
 
 A gem to wrap the libmcpp C preprocessor.
 
-Mcpp itself can be found at http://mccp.sourceforge.net
+Mcpp itself can be found at [http://mcpp.sourceforge.net](http://mcpp.sourceforge.net)
 
 Installation
 ============
 
-1. Install [mcpp](http://mccp.sourceforge.net) as a shared library.
+1. Install [mcpp](http://mcpp.sourceforge.net) as a shared library.
 1. `gem install mcpp`
 
 [ffi](https://github.com/ffi/ffi) is a requirement, but should be installed
@@ -25,12 +25,12 @@ The examples are hopefully more enlightening than the previous paragraph was.
 
 The actual arguments that can be passed are identical to those used by the
 command line program, and are enumerated in the mcpp man page, or online at
-http://mcpp.svn.sourceforge.net/viewvc/mcpp/trunk/doc/mcpp-manual.html
+[http://mcpp.svn.sourceforge.net/viewvc/mcpp/trunk/doc/mcpp-manual.html](http://mcpp.svn.sourceforge.net/viewvc/mcpp/trunk/doc/mcpp-manual.html)
 
 Examples
 --------
 
-    require 'mccp'
+    require 'mcpp'
 
     # Read from stdin, write to stdout
     Mcpp.preprocess
